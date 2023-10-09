@@ -1,0 +1,72 @@
+.reminder-view {
+    background-color: #ccc;
+    border: 3px solid black;
+    padding: 0px 10px;
+    font-family: sans-serif;
+}
+
+.reminder-view-header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.reminder-view-header-left {
+    display: flex;
+    gap: 10px;
+}
+
+.reminder-view-header-right {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.reminder-view-body {
+    font-size: 16px;
+}
+
+.priority-label {
+    color: firebrick;
+}
+
+.priority-label-done {
+    color: grey;
+}
+
+.date-label {
+    color: dimgrey;
+}
+
+.reminder-view-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    background-color: #bbb;
+    color: #000000;
+  
+    height: 35px;
+  
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+  
+    border: 3px solid black;
+    cursor: pointer;
+  
+    transition: 0.5s;
+}
+
+.delete-button {
+    background-color: crimson;
+}
+
+.reminder-view-button:hover {
+    background-color: #aaa;
+}
+
+.delete-button:hover {
+    background-color: brown;
+}
